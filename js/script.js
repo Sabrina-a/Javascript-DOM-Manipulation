@@ -91,6 +91,13 @@ function priceValidation(priceValue) {
   }
 }
 
+element_name.addEventListener("focusout", function () {
+  nameValidation(element_name.value);
+});
+element_price.addEventListener("focusout", function () {
+  priceValidation(element_price.value);
+});
+
 element_name.addEventListener("keyup", function () {
   nameValidation(element_name.value);
 });
