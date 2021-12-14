@@ -69,7 +69,7 @@ function nameValidation(nameValue) {
     name_alert.classList.replace("d-block", "d-none");
     name_alert.classList.add("is-valid");
     name_alert.classList.remove("is-invalid");
-    return true;
+   
   } else {
     name_alert.classList.replace("d-none", "d-block");
     name_alert.classList.add("is-invalid");
@@ -83,7 +83,7 @@ function priceValidation(priceValue) {
     price_alert.classList.replace("d-block", "d-none");
     price_alert.classList.add("is-valid");
     price_alert.classList.remove("is-valid");
-    return true;
+ 
   } else {
     price_alert.classList.replace("d-none", "d-block");
     price_alert.classList.add("is-invalid");
